@@ -255,7 +255,7 @@ article h3 {
 
 @media (min-width: 550px) {
   article {
-    padding: 1rem ;
+    padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -279,8 +279,8 @@ article h3 {
     text-align: left;
     grid-column: 1/7;
   }
-  #projects h2{
-    padding: 0rem 10rem ;
+  #projects h2 {
+    padding: 0rem 10rem;
   }
 
   article:nth-child(odd) ul {
@@ -289,5 +289,4 @@ article h3 {
   article:nth-child(even) ul {
     justify-content: flex-end;
   }
-
 }
