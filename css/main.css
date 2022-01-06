@@ -74,7 +74,7 @@ a:hover {
 
 /* intro styles */
 
-#intro {
+#intro, #projects  {
   padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -211,10 +211,6 @@ footer ul {
   background-color: var(--dkblue);
 }
 
-#projects {
-  padding: 4rem 1rem;
-}
-
 #projects h2 {
   font-size: 2.5rem;
   margin-bottom: Calc(2.5rem * 0.5);
@@ -256,8 +252,6 @@ article h3 {
 @media (min-width: 550px) {
   article {
     padding: 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
   }
@@ -278,9 +272,6 @@ article h3 {
     order: 1;
     text-align: left;
     grid-column: 1/7;
-  }
-  #projects h2 {
-    padding: 0rem 10rem;
   }
 
   article:nth-child(odd) ul {
